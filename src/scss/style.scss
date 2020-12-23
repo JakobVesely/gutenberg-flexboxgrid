@@ -1,0 +1,26 @@
+/* Extension Classes */
+
+@media only screen and (min-width: 64em) {
+
+    .row .col-md--flex-1 {
+        flex: 1;
+    }
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container-fluid--full-width {
+    width: 100%;
+    align-items: center;
+}
+
+.container-fluid--full-height {
+    height: 100vh;
+    justify-content: center;
+}

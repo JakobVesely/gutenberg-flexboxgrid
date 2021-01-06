@@ -10,10 +10,15 @@ export default function Edit(props) {
         mediaUrl: ''
     });
 
-    const onSelectMedia = (media) => setAttributes({
-        mediaId: media.id,
-        mediaUrl: media.url
-    });
+    const onSelectMedia = (media) => {
+
+        const url = media.sizes.large ? media.sizes.large.url : media.url;
+
+        setAttributes({
+            mediaId: media.id,
+            mediaUrl: url
+        });
+    };
 
     const blockStyle = {
         backgroundImage: attributes.mediaUrl != '' ? 'url("' + attributes.mediaUrl + '")' : 'none'

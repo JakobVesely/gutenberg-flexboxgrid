@@ -1,6 +1,6 @@
 {
 	"name": "@jakob.fyi/gutenberg-flexboxgrid",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A Wordpress Gutenberg Plugin for the Flexbox Grid.",
 	"author": "Jakob Vesely",
 	"license": "GNU General Public License v3.0",

@@ -2,7 +2,7 @@
 /**
  * Plugin Name:     Gutenberg Flexbox Grid
  * Description:     A Plugin for using Flexbox Grid in the Wordpress Gutenberg Editor.
- * Version:         1.0.1
+ * Version:         1.1.0
  * Author:          Jakob Vesely
  * License:         GNU General Public License v3.0
  * Text Domain:     gutenberg-flexboxgrid
@@ -60,4 +60,5 @@ add_action('init', function ()
 	register_block_type('gutenberg-flexboxgrid/container-fluid', $settings);
 	register_block_type('gutenberg-flexboxgrid/row', $settings);
 	register_block_type('gutenberg-flexboxgrid/column', $settings);
+	register_block_type('gutenberg-flexboxgrid/column-linked', $settings);
 });

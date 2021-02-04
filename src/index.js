@@ -5,3 +5,4 @@ import './blocks/container-fluid/block';
 import './blocks/container/block';
 import './blocks/row/block';
 import './blocks/column/block';
+import './blocks/column-linked/block';
